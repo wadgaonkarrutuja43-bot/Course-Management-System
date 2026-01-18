@@ -18,4 +18,4 @@ yarn-debug.log*
 
 # Ignore temporary upload folders if you have them
 uploads/
-temp/
+temp/    
