@@ -1,0 +1,21 @@
+# Ignore the dependency folder (The most important rule)
+node_modules/
+
+# Ignore sensitive database credentials and environment variables
+.env
+config.php
+db_connect.php
+# (Note: Only ignore these if they contain your actual passwords)
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
+
+# Ignore log files and error reports
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Ignore temporary upload folders if you have them
+uploads/
+temp/
